@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--  CSS  link-->
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/media.css">
+    <title>Navbar</title>
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <h1> Navbar</h1>
+  <!-- custom navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+ 
+        
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar5" aria-controls="navbar5" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+  
+
+  <div class="collapse navbar-collapse" id="navbar5">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#"> Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">link</a>
+      </li>
+      <li class="nav-item dropdwon">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdwon"role="button" data-bs-toggle="dropdwon" aria-expanded="false"> Dropdwon</a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="search" aria-label="search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+    </div>
+  </div>
+</nav>
+
+   <br><br>
+<!-- navbar copy-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<br><br>
+<h1> Pagination</h1>
+<!-- pagination -->
+    <nav aria-label="page navigation example">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#"> Previous</a></li>
+        <li class="page-item active">
+          <a class="page-link" href="#" aria-current="page"> 1</a></li>
+        <li class="page-item"><a class="page-link" href="#"> 2</a></li>
+        <li class="page-item"><a class="page-link" href="#"> 3</a></li>
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1" aria-disabled="true"> Next</a></li>
+      </ul>
+    </nav>
+
+<br>
+<nav aria-label="page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+
+<li class="page-item"><a class="page-link" href="#">4</a></li>
+<li class="page-item">
+  <a class="page-link" href="#" aria-label="next">
+  <span aria-hidden="true">&raquo;</span>
+  </a>
+</li>
+</ul>
+</nav>
+<br>
+<h1> Popovers </h1>
+<div class="container">
+
+   <!-- Popovers-->
+  <button type="button" class="btn btn-lg btn-success" data-bs-toggle="popover" title="popover title" data-bs-content="Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, qui."> Click to popover</button>
+
+<br><br>
+<button type="button" class="btn btn-success" data-bs-container="body" data-bs-toggle="popover"data-bs-placement="top" data-bs-content="orem ipsum, dolor, sit amet consectetur adipisicing elit. Amet, quidem! ">popover on top</button>
+
+<button type="button" class="btn btn-success" data-bs-container="body" data-bs-toggle="popover"data-bs-placement="left" data-bs-content="orem ipsum, dolor, sit amet consectetur adipisicing elit. Amet, quidem! ">popover on left</button>
+
+<button type="button" class="btn btn-success" data-bs-container="body" data-bs-toggle="popover"data-bs-placement="right" data-bs-content="orem ipsum, dolor, sit amet consectetur adipisicing elit. Amet, quidem! ">popover on right</button>
+
+<button type="button" class="btn btn-success" data-bs-container="body" data-bs-toggle="popover"data-bs-placement="bottom" data-bs-content="orem ipsum, dolor, sit amet consectetur adipisicing elit. Amet, quidem! ">popover on bottom</button>
+
+</div>
+<br><br>
+<!-- dismissable popover-->
+<a tabindex="0" class="btn btn-lg btn-success" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Dismissible popover" data-bs-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>
+<br> <br>
+<h1> Tooltips </h1>
+<!-- tooltips -->
+
+<button type="button" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="tooltip on top">tooltip on top</button>
+
+<button type="button" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="left" title="tooltip on left">tooltip on left</button>
+
+<button type="button" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="right" title="tooltip on right">tooltip on top</button>
+
+<button type="button" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="bottom" title="tooltip on bottom">tooltip on bottom</button>
+
+<abbr title="Hyper text markup language">HTML</abbr>
+<br><br>
+
+<!-- progress bar-->
+<div class="container">
+<div class="progress" style="height: 10px">
+  <div class="progress-bar progress-bar-striped  bg-dark" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div><br>
+<div class="progress" style="height: 30px">
+     <div class="progress-bar progress-bar-striped bg-info w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+</div><br>
+<div class="progress" style="height: 30px">
+   <div class="progress-bar  progress-bar-striped bg-warning w-50 " role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+</div><br>
+<div class="progress" style="height: 30px">
+  <div class="progress-bar progress-bar-striped bg-danger w-75  " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+  </div><br>
+<div class="progress" style="height: 30px">
+   <div class="progress-bar progress-bar-striped bg-success w-100 height" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+</div>
+</div>
+
+<br><br>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+  <button type="button" class="btn btn-secondary mt-3" data-bs-toggle="button" id="btnToggleAnimatedProgress" aria-pressed="false" autocomplete="off">
+    Toggle animation
+  </button>
+  <button type="button" class="btn btn-secondary mt-3 active" data-bs-toggle="button" id="btnToggleAnimated" aria-pressed="true" autocomplete="off">
+    Toggle animation
+  </button>
+
+<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"> animation </div>
+</div>
+
+
+<br><br>
+<!-- spinner-->
+<div class="spinner-border text-danger" role="status">
+  <span class="visuallu-hidden"></span>
+</div>
+
+<div class="spinner-border text-warning" role="status">
+  <span class="visuallu-hidden"></span>
+</div>
+<div class="spinner-border text-gray-dark" role="status">
+  <span class="visuallu-hidden"></span>
+</div>
+<div class="spinner-border text-success" role="status">
+  <span class="visuallu-hidden"></span>
+</div>
+<div class="spinner-border text-secondary" role="status">
+  <span class="visuallu-hidden"></span>
+</div>
+<div class="spinner-border text-primary" role="status">
+  <span class="visuallu-hidden"></span>
+</div>
+
+<br><br>
+<div class="spinner-grow text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-secondary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-danger" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-warning" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-info" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-gray-dark" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-dark" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<br><br>
+<button class="btn btn-primary" type="button" disabled>
+  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+  <span class="visually-hidden">Loading...</span>
+</button>
+<button class="btn btn-primary" type="button" disabled>
+  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+  Loading...
+</button>
+
+
+<br><br>
+<!-- toast placement-->
+<form>
+  <div class="form-group mb-3">
+    <label for="selectToastPlacement">Toast placement</label>
+    <select class="form-select mt-2" id="selectToastPlacement">
+      <option value="" selected>Select a position...</option>
+      <option value="top-0 start-0">Top left</option>
+      <option value="top-0 start-50 translate-middle-x">Top center</option>
+      <option value="top-0 end-0">Top right</option>
+      <option value="top-50 start-0 translate-middle-y">Middle left</option>
+      <option value="top-50 start-50 translate-middle">Middle center</option>
+      <option value="top-50 end-0 translate-middle-y">Middle right</option>
+      <option value="bottom-0 start-0">Bottom left</option>
+      <option value="bottom-0 start-50 translate-middle-x">Bottom center</option>
+      <option value="bottom-0 end-0">Bottom right</option>
+    </select>
+  </div>
+</form>
+<div aria-live="polite" aria-atomic="true" class="bg-dark position-relative bd-example-toasts">
+  <div class="toast-container position-absolute p-3" id="toastPlacement">
+    <div class="toast">
+      <div class="toast-header">
+        <img src="images/man.jpg" class="rounded me-2" alt="man">
+        <strong class="me-auto">Bootstrap</strong>
+        <small>11 mins ago</small>
+      </div>
+      <div class="toast-body">
+        Hello, world! This is a toast message.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<br><br>
+<!-- toast simple-->
+<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <img src="images/" class="rounded me-2" alt="...">
+    <strong class="me-auto">Bootstrap</strong>
+    <small class="text-muted">11 mins ago</small>
+    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+  </div>
+  <div class="toast-body">
+    Hello, world! This is a toast message.
+  </div>
+</div>
+
+<!-- scrollspy 1 w3school
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+    <a class="navbar-brand" href="#">Websitename</a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar10">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+ 
+
+  <div class="collapse navbar-collapse" id="myNavbar10">
+    <ul class="nav navbar-nav">
+      <li><a href="#section1">Section 1</a></li>
+       <li><a href="#section2">Section 2</a></li>
+        <li><a href="#section3">Section 3</a></li>
+         <li class="dropdown">
+           <a class="dropdown-toggle" data-toggle="dropdwon" href="#"></a>
+           <ul class="dropdown-menu">
+             <li> <a href="#section41">Section4-1</a></li>
+             <li> <a href="#section42"> Section4-2</a></li>
+           </ul>
+         </li>
+     </ul>
+
+
+  
+</nav>
+<div id="section1" class="container">
+  <h1>section 1</h1>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Earum quasi eum, magni Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Earum quasi eum, magni </p>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Earum quasi eum, magni Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Earum quasi eum, magni</p>
+</div>
+
+<div id="section2" class="container">
+  <h1>section 2</h1>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Earum quasi eum, magniLorem ipsum dolor, sit amet consectetur adipisicing, elit. Earum quasi eum, magni </p>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Earum quasi eum, magniLorem ipsum dolor, sit amet consectetur adipisicing, elit. Earum quasi eum, magni </p>
+</div>
+<div id="section3" class="container">
+  <h1>section 3</h1>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Earum quasi eum, magni Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Earum quasi eum, magni</p>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Earum quasi eum, magni Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Earum quasi eum, magni</p>
+</div>
+
+<div id="section41" class="container">
+  <h1>section 4 submenu 1</h1>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Earum quasi eum, magni Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Earum quasi eum, magni</p>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Earum quasi eum, magni Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Earum quasi eum, magni</p>
+</div>
+
+<div id="section42" class="container">
+  <h1>section 4 submenu 2</h1>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Earum quasi eum, magni Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Earum quasi eum, magni</p>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Earum quasi eum, magniLorem ipsum dolor, sit amet consectetur adipisicing, elit. Earum quasi eum, magni </p>
+</div>
+</div>
+  </div>
+</div>
+</nav>
+-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Section 1</a></li>
+          <li><a href="#section2">Section 2</a></li>
+          <li><a href="#section3">Section 3</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Section 4-1</a></li>
+              <li><a href="#section42">Section 4-2</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="section1" class="container-fluid">
+  <h1>Section 1</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section2" class="container-fluid">
+  <h1>Section 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section3" class="container-fluid">
+  <h1>Section 3</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section41" class="container-fluid">
+  <h1>Section 4 Submenu 1</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section42" class="container-fluid">
+  <h1>Section 4 Submenu 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+
+</body>
+</html>
+    <!--   JS link -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+      //activaton code for :popovers//
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+//activaton code for : tooltips//
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+    </script>
+  
+  </body>
+</html>
